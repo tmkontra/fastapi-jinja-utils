@@ -5,7 +5,7 @@ from os import PathLike
 import fastapi
 from fastapi.templating import Jinja2Templates
 
-__version__ = '1.0rc0'
+__version__ = '1.0'
 __all__ = ["Jinja2TemplatesDependency", "Renderable"]
 
 Renderable = typing.Callable[[str, dict], fastapi.Response]
